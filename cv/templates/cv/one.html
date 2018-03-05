@@ -4,13 +4,24 @@
 
 
             {% block content %}
-            	<h3 class="text">Головне</h3>
-                <p class="paragraph text">Дата народження – 23 березня 1986 року.
-                  <br>Місце проживання - с. Добросин, Жовківський р-н., Львівська обл., вул. Центральна буд. 12
-                  <br>тел. +380680260038
-                  <br>+380502518406
-                  <br>email: smolynets@gmail.com.ua
-                  <br>Мета: отримання посади Python/Django developer</p>
+            <div class='row col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2'>
+                  <div class='col-xs-11 text_boder'>
+                        <h3 class="text">Головне</h3>
+                        <p class="paragraph text">Дата народження – 23 березня 1986 року.
+                        <br>Місце проживання - с. Добросин, Жовківський р-н., Львівська обл., вул. Центральна буд. 12
+                        <br>тел. +380680260038
+                        <br>+380502518406
+                        <br>email: smolynets@gmail.com.ua
+                        <br>Мета: отримання посади Python/Django developer</p>
+                  </div>
+                  <div class="col-xs-5 col-xs-offset-1 text">
+                  <!--pass-->
+                  </div>
+                  <div class="col-xs-3 col-xs-offset-3 text">
+                        <a href='{% url "two" %}' class="btn btn-default more_buttom">
+                              <i class="fa fa-arrow-right simpl_icon arrow_right"></i>
+                        </a>
+                  </div>
+            </div>
             {% endblock content %}
-            {% block next %} href='{% url "two" %}' {% endblock next %}
             

@@ -35,21 +35,7 @@
                 </ul>
             </div>
         </div>
-        <div class='row col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2'>
-            <div class='col-xs-11 text_boder'>
-            	{% block content %}{% endblock content %}
-            </div>
-            <div class="col-xs-5 col-xs-offset-1 text">
-       			<a class="btn btn-default more_buttom">
-       				<i class="fa fa-arrow-left simpl_icon arrow_left"></i>
-       			</a>
-       		  </div>
-       		  <div class="col-xs-3 col-xs-offset-3 text">
-       			    <a {% block next %} {% endblock next %} class="btn btn-default more_buttom">
-       				     <i class="fa fa-arrow-right simpl_icon arrow_right"></i>
-       			    </a>
-       		  </div>
-        </div>
+        {% block content %}{% endblock content %}
     </body>
     <!-- Javascripts Section -->
   	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js'></script>
