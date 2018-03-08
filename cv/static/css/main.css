@@ -31,5 +31,14 @@ body {
 }
 
 .lang{
-	margin-top: 25px;
+	margin-top: 20px;
+	position: absolute;
+	right: 0;
+}
+
+input[type="button"] {
+      background: url('/static/img/united-states.png') no-repeat top;
+      width: 39px;
+      height: 40px;
+      border-color: #F8F8FF;     
 }

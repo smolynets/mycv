@@ -1,10 +1,11 @@
+{% load i18n %}
 {% load static %}
 
 <!DOCTYPE html>
 <html lang='uk'>
 	<head>
   		<meta charset='UTF-8'/>
-    	<title>Тест</title>
+    	<title>Cv</title>
   		<meta name='description'
       		value=Тест />
       	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -15,10 +16,10 @@
     <!-- end styles -->
     <body>
     	<div class='row sub-header'>
-            <div class='col-xs-9 menu-container'>
+            <div class='col-xs-6 menu-container'>
                 <ul class='nav nav-pills' role='tablist'>
                     <li role='presentation'>
-                        <a href='' class="btn btn-default more_buttom">Всі розділи</a>
+                        <a href='' class="btn btn-default more_buttom">{% trans 'All pages' %}</a>
                     </li>
                     <li role='presentation' class='menu-items hidden'>
                         <a href=''>Головна</a>
@@ -34,11 +35,21 @@
                     </li>
                 </ul>
             </div>
+            <div class="col-xs-2 lang">
+                <button class='initLangSelector btn btn-link' value='uk'>
+                    <!--<img src="http://kvitky.pp.ua/static/img/ukraine.png"/>-->
+                    <img src="/static/img/ukraine.png" alt='українська'/>
+                </button> 
+                <button class='initLangSelector btn btn-link' value='en'>
+                    <img src="/static/img/united-states.png" alt='english'/>
+                </button> 
+            </div>
         </div>
         {% block content %}{% endblock content %}
     </body>
     <!-- Javascripts Section -->
   	<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
   	<script src='https://cdn.jsdelivr.net/bootstrap/3.3.0/js/bootstrap.min.js'></script>
     <script src="{% static 'js/script.js' %}"></script>
 </html>

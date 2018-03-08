@@ -1,4 +1,16 @@
+function initLangSelector() {
+    $('button.initLangSelector').click(function(event){
+        var lan = $(this).val();
+        $.cookie('django_language', lan, {'path': '/', 'expires': 365});
+        location.reload(true);
+        return true;
+     });
+    }
+
+
 $(document).ready(function(){
+
+    initLangSelector()
 
 
  
@@ -61,5 +73,15 @@ $(document).ready(function(){
     $('.arrow_right').mouseout(function(){
         lessArrow_right();
     })
+
+    function initLangSelector() {
+    $('button.initLangSelector').click(function(event){
+        var lan = $(this).val();
+        $.cookie('django_language', lan, {'path': '/', 'expires': 365});
+        location.reload(true);
+        return true;
+     });
+    }
+
 
 });
