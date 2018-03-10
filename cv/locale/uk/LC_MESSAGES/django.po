@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 15:59+0000\n"
+"POT-Creation-Date: 2018-03-10 19:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,3 +22,160 @@ msgstr ""
 #: templates/base.html:22
 msgid "All pages"
 msgstr "Всі сторінки"
+
+#: templates/cv/five.html:8
+msgid "Technologies:"
+msgstr "Технології:"
+
+#: templates/cv/four.html:8
+msgid "Professional skills:"
+msgstr "Професійні навики:"
+
+#: templates/cv/four.html:10
+msgid "The not bad user in  Linux(Ubuntu)"
+msgstr "Впевнений користувач  Linux(Ubuntu)"
+
+#: templates/cv/four.html:11
+msgid "tried to administrate servers with Linux(Ubuntu)"
+msgstr "пробував  на  початковому рівні адмініструвати сервери на Linux(Ubuntu)"
+
+#: templates/cv/four.html:12
+msgid "in particular,  configured apache and Nginx with Wordpress"
+msgstr "зокрема конфігурувати Apache та  Nginx  в парі з Wordpress"
+
+#: templates/cv/four.html:13
+msgid "More than two years  study django framework in your book"
+msgstr "Більше двох років  вивчаю Django-фреймворк по вашій книзі"
+
+#: templates/cv/four.html:14
+msgid "The Base level of English"
+msgstr "Базовий рівень англійської"
+
+#: templates/cv/four.html:15
+msgid "The programming interest began with the books"
+msgstr "Зацікавлення програмуванням почалося з книги"
+
+#: templates/cv/four.html:16
+msgid "\"Bot\" of Maksym Kidruk and  \"Prey\" of  Michael Crichton"
+msgstr "“Бот” Максима Кідрука та “Здобич(Рій)” Майкла Крайтона"
+
+#: templates/cv/four.html:19
+msgid "My simple works"
+msgstr "Ось маленькі приклади моїх робіт"
+
+#: templates/cv/one.html:8
+msgid "Main"
+msgstr "Основне"
+
+#: templates/cv/one.html:9
+msgid "Date of birth – March 23,  1986"
+msgstr "Дата народження – 23 березня 1986 року."
+
+#: templates/cv/one.html:10
+msgid "Place of residence — Dobrosyn, Zhovkva district, Lviv region,"
+msgstr "Місце проживання - с. Добросин, Жовківський р-н.,   Львівська обл., "
+
+#: templates/cv/one.html:10
+msgid "Tsentralna st. 12"
+msgstr "вул. Центральна 12"
+
+#: templates/cv/one.html:10
+msgid "(40 km from Lviv by the Rava — Ruska way)"
+msgstr "(40 км від Львова по Рава-Руській трасі)"
+
+#: templates/cv/one.html:11
+msgid "tel."
+msgstr "тел."
+
+#: templates/cv/one.html:13
+msgid ""
+"Destination: getting a job Junior Python/Django Web Developer in SoftFormance"
+msgstr ""
+"Мета: отримання посади Junior Python/Django Web Developer в компанії  "
+"SoftFormance."
+
+#: templates/cv/six.html:8
+msgid "Personal data:"
+msgstr "Особисті дані:"
+
+#: templates/cv/six.html:10
+msgid "Married, without bad habits, purposeful and punctual,"
+msgstr "Одружений, без шкідливих звичок, цілеспрямований та пунктуальний,"
+
+#: templates/cv/six.html:11
+msgid "with desire for self — realization"
+msgstr "з непереборним бажанням самореалізації"
+
+#: templates/cv/six.html:12
+msgid "Favorite hobby is reading and internet"
+msgstr "Улюбленим хобі є читання та інтернет"
+
+#: templates/cv/six.html:13
+msgid "In choosing a new job the main thing for me"
+msgstr "В виборі нової роботи ключовим критерієм для мене"
+
+#: templates/cv/six.html:14
+msgid "is a possibility of self — realization and"
+msgstr "є можливість самореалізації та"
+
+#: templates/cv/six.html:15
+msgid "professional growth, good team"
+msgstr "професійного росту, хороший колектив"
+
+#: templates/cv/three.html:8
+msgid "Education:"
+msgstr "Освіта:"
+
+#: templates/cv/three.html:11
+msgid "Ukrainian Catholic University, Humanities faculty,  history,  bachelor"
+msgstr ""
+"Український Католицький Університет, Гуманітарний факультет,  спеціальність "
+"– історія,  бакалавр"
+
+#: templates/cv/three.html:13
+msgid "Lviv National University, Historical faculty,  master's degree"
+msgstr ""
+"Львівський Національний університет ім. І.Франка, Історичний факультет,  "
+"магістр"
+
+#: templates/cv/two.html:8
+msgid "Experience:"
+msgstr "Досвід роботи:"
+
+#: templates/cv/two.html:11
+msgid "today"
+msgstr "по даний час"
+
+#: templates/cv/two.html:11
+msgid "engineer – electronic (system administrator)  in  Dobrosyn school"
+msgstr ""
+"інженер  -  електронщик (системний адміністратор)  у  Добросинській ЗОШ,  с. "
+"Добросин"
+
+#: templates/cv/two.html:12
+msgid "Also,  teach computer science."
+msgstr "Також веду уроки інформатики."
+
+#: templates/cv/two.html:14
+msgid "сall – center «Adelina» – Volya cable"
+msgstr "сall – центр «Аделіна Оптіс» - групи Воля кабель"
+
+#: templates/cv/two.html:15
+msgid "the embassy of Poland and Rozetka groups, operator."
+msgstr "посольство Польщі і Розетка,  оператор"
+
+#: templates/cv/two.html:16
+msgid "internet – shop «Deshevshe.net», sales manager."
+msgstr "інтернет-магазин «Дешевше нет». Менеджер з продажу"
+
+#: templates/cv/two.html:17
+msgid "сall – center «Adelina»,  group MTS,  operator."
+msgstr "call – центр «Аделіна Оптіс»,  група МТС,  оператор"
+
+#: templates/cv/two.html:18
+msgid "сall – center MTS,  operator."
+msgstr "call-центр МТС-Україна,  оператор"
+
+#: templates/cv/two.html:19
+msgid "McDonald's."
+msgstr "ресторан Макдональдс"

@@ -19,6 +19,7 @@ body {
 	font-family: 'Times New Roman';
 	font-size: 18px;
 	line-height: 1.5;
+	word-spacing: 5px;
 }
 
 .text{
@@ -41,4 +42,12 @@ input[type="button"] {
       width: 39px;
       height: 40px;
       border-color: #F8F8FF;     
+}
+
+.text_header{
+	margin-left: 20px;
+}
+
+.techno{
+	margin-left: 250px
 }

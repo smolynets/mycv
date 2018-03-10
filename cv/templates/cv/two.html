@@ -1,23 +1,35 @@
 {% extends 'base.html' %}
-
 {% load static %}
-
+{% load i18n %}
 
             {% block content %}
             <div class='row col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2'>
-                  <div class='col-xs-11 text_boder'>
-                        sdfdsfsd
-                  </div>
-                  <div class="col-xs-5 col-xs-offset-1 text">
-                        <a href='{% url "one" %}' class="btn btn-default more_buttom">
-                              <i class="fa fa-arrow-left simpl_icon arrow_left"></i>
-                        </a>
-                  </div>
-                  <div class="col-xs-3 col-xs-offset-3 text">
-                        <a href='' class="btn btn-default more_buttom">
-                              <i class="fa fa-arrow-right simpl_icon arrow_right"></i>
-                        </a>
-                  </div>
+                <div class='col-xs-11 text_boder'>
+                	    <h3 class="text text_header">{% trans 'Experience:' %}</h3>
+                	    <ul>
+	                        <li class="paragraph text">05.09.13 – 
+	                        {% trans 'today' %}  – {% trans 'engineer – electronic (system administrator)  in  Dobrosyn school' %}.  
+	                        {% trans 'Also,  teach computer science.' %}</li>
+	                        <li class="paragraph text">20.04.12 – 30.08.13 – 
+	                        {% trans 'сall – center «Adelina» – Volya cable' %}, 
+	                        {% trans 'the embassy of Poland and Rozetka groups, operator.' %}</li>
+	                        <li class="paragraph text">01.04.11  – 28.03.12  –  {% trans 'internet – shop «Deshevshe.net», sales manager.' %}</li>
+	                        <li class="paragraph text">31.12.2008 –  20.03.11  –  {% trans 'сall – center «Adelina»,  group MTS,  operator.' %}</li>
+	                        <li class="paragraph text">20.06.2008  –  30.10.2008  –  {% trans 'сall – center MTS,  operator.' %}</li>
+	                        <li class="paragraph text">23.07.2007  –  25.05.2008  –  {% trans "McDonald's." %}</li> 
+                        </ul>  
+                </div>
+
+                <div class="col-xs-5 col-xs-offset-1 text">
+                    <a href='{% url "one" %}' class="btn btn-default more_buttom">
+                        <i class="fa fa-arrow-left simpl_icon arrow_left"></i>
+                    </a>
+                </div>
+                <div class="col-xs-3 col-xs-offset-3 text">
+                    <a href='{% url "three" %}' class="btn btn-default more_buttom">
+                        <i class="fa fa-arrow-right simpl_icon arrow_right"></i>
+                    </a>
+                </div>
             </div>
             {% endblock content %}
             

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load i18n %}
+
+            {% block content %}
+            <div class='row col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2'>
+                <div class='col-xs-11 text_boder'>
+                	<h3 class="text text_header">{% trans 'Personal data:' %}</h3>
+                	<p class="paragraph text">
+                        {% trans 'Married, without bad habits, purposeful and punctual,' %}
+                        {% trans 'with desire for self — realization' %}.
+                        {% trans 'Favorite hobby is reading and internet' %}.
+                        {% trans 'In choosing a new job the main thing for me' %}
+                        {% trans 'is a possibility of self — realization and' %} 
+                        {% trans 'professional growth, good team' %}.
+                    </p>    
+                </div>
+
+                <div class="col-xs-5 col-xs-offset-1 text">
+                    <a href='{% url "four" %}' class="btn btn-default more_buttom">
+                        <i class="fa fa-arrow-left simpl_icon arrow_left"></i>
+                    </a>
+                </div>
+                <div class="col-xs-3 col-xs-offset-3 text">
+                </div>
+            </div>
+            {% endblock content %}
+            

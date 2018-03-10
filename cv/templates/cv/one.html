@@ -1,18 +1,16 @@
 {% extends 'base.html' %}
-
 {% load static %}
-
+{% load i18n %}
 
             {% block content %}
             <div class='row col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2'>
                   <div class='col-xs-11 text_boder'>
-                        <h3 class="text">Головне</h3>
-                        <p class="paragraph text">Дата народження – 23 березня 1986 року.
-                        <br>Місце проживання - с. Добросин, Жовківський р-н., Львівська обл., вул. Центральна буд. 12
-                        <br>тел. +380680260038
-                        <br>+380502518406
+                        <h3 class="text">{% trans 'Main' %}</h3>
+                        <p class="paragraph text">{% trans 'Date of birth – March 23,  1986' %}
+                        <br>{% trans 'Place of residence — Dobrosyn, Zhovkva district, Lviv region,' %}  {% trans 'Tsentralna st. 12' %} &nbsp; {% trans '(40 km from Lviv by the Rava — Ruska way)' %}
+                        <br>{% trans 'tel.' %} &nbsp; +380680260038 &nbsp; +380502518406
                         <br>email: smolynets@gmail.com.ua
-                        <br>Мета: отримання посади Python/Django developer</p>
+                        <br>{% trans 'Destination: getting a job Junior Python/Django Web Developer in SoftFormance' %}</p>
                   </div>
                   <div class="col-xs-5 col-xs-offset-1 text">
                   <!--pass-->

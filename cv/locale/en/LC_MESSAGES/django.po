@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-08 15:59+0000\n"
+"POT-Creation-Date: 2018-03-10 19:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,4 +20,153 @@ msgstr ""
 
 #: templates/base.html:22
 msgid "All pages"
+msgstr ""
+
+#: templates/cv/five.html:8
+msgid "Technologies:"
+msgstr ""
+
+#: templates/cv/four.html:8
+msgid "Professional skills:"
+msgstr ""
+
+#: templates/cv/four.html:10
+msgid "The not bad user in  Linux(Ubuntu)"
+msgstr ""
+
+#: templates/cv/four.html:11
+msgid "tried to administrate servers with Linux(Ubuntu)"
+msgstr ""
+
+#: templates/cv/four.html:12
+msgid "in particular,  configured apache and Nginx with Wordpress"
+msgstr ""
+
+#: templates/cv/four.html:13
+msgid "More than two years  study django framework in your book"
+msgstr ""
+
+#: templates/cv/four.html:14
+msgid "The Base level of English"
+msgstr ""
+
+#: templates/cv/four.html:15
+msgid "The programming interest began with the books"
+msgstr ""
+
+#: templates/cv/four.html:16
+msgid "\"Bot\" of Maksym Kidruk and  \"Prey\" of  Michael Crichton"
+msgstr ""
+
+#: templates/cv/four.html:19
+msgid "My simple works"
+msgstr ""
+
+#: templates/cv/one.html:8
+msgid "Main"
+msgstr ""
+
+#: templates/cv/one.html:9
+msgid "Date of birth – March 23,  1986"
+msgstr ""
+
+#: templates/cv/one.html:10
+msgid "Place of residence — Dobrosyn, Zhovkva district, Lviv region,"
+msgstr ""
+
+#: templates/cv/one.html:10
+msgid "Tsentralna st. 12"
+msgstr ""
+
+#: templates/cv/one.html:10
+msgid "(40 km from Lviv by the Rava — Ruska way)"
+msgstr ""
+
+#: templates/cv/one.html:11
+msgid "tel."
+msgstr ""
+
+#: templates/cv/one.html:13
+msgid ""
+"Destination: getting a job Junior Python/Django Web Developer in SoftFormance"
+msgstr ""
+
+#: templates/cv/six.html:8
+msgid "Personal data:"
+msgstr ""
+
+#: templates/cv/six.html:10
+msgid "Married, without bad habits, purposeful and punctual,"
+msgstr ""
+
+#: templates/cv/six.html:11
+msgid "with desire for self — realization"
+msgstr ""
+
+#: templates/cv/six.html:12
+msgid "Favorite hobby is reading and internet"
+msgstr ""
+
+#: templates/cv/six.html:13
+msgid "In choosing a new job the main thing for me"
+msgstr ""
+
+#: templates/cv/six.html:14
+msgid "is a possibility of self — realization and"
+msgstr ""
+
+#: templates/cv/six.html:15
+msgid "professional growth, good team"
+msgstr ""
+
+#: templates/cv/three.html:8
+msgid "Education:"
+msgstr ""
+
+#: templates/cv/three.html:11
+msgid "Ukrainian Catholic University, Humanities faculty,  history,  bachelor"
+msgstr ""
+
+#: templates/cv/three.html:13
+msgid "Lviv National University, Historical faculty,  master's degree"
+msgstr ""
+
+#: templates/cv/two.html:8
+msgid "Experience:"
+msgstr ""
+
+#: templates/cv/two.html:11
+msgid "today"
+msgstr ""
+
+#: templates/cv/two.html:11
+msgid "engineer – electronic (system administrator)  in  Dobrosyn school"
+msgstr ""
+
+#: templates/cv/two.html:12
+msgid "Also,  teach computer science."
+msgstr ""
+
+#: templates/cv/two.html:14
+msgid "сall – center «Adelina» – Volya cable"
+msgstr ""
+
+#: templates/cv/two.html:15
+msgid "the embassy of Poland and Rozetka groups, operator."
+msgstr ""
+
+#: templates/cv/two.html:16
+msgid "internet – shop «Deshevshe.net», sales manager."
+msgstr ""
+
+#: templates/cv/two.html:17
+msgid "сall – center «Adelina»,  group MTS,  operator."
+msgstr ""
+
+#: templates/cv/two.html:18
+msgid "сall – center MTS,  operator."
+msgstr ""
+
+#: templates/cv/two.html:19
+msgid "McDonald's."
 msgstr ""
