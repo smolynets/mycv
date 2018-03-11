@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-10 19:38+0000\n"
+"POT-Creation-Date: 2018-03-11 17:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -37,7 +37,8 @@ msgstr "Впевнений користувач  Linux(Ubuntu)"
 
 #: templates/cv/four.html:11
 msgid "tried to administrate servers with Linux(Ubuntu)"
-msgstr "пробував  на  початковому рівні адмініструвати сервери на Linux(Ubuntu)"
+msgstr ""
+"пробував  на  початковому рівні адмініструвати сервери на Linux(Ubuntu)"
 
 #: templates/cv/four.html:12
 msgid "in particular,  configured apache and Nginx with Wordpress"
@@ -63,31 +64,35 @@ msgstr "“Бот” Максима Кідрука та “Здобич(Рій)�
 msgid "My simple works"
 msgstr "Ось маленькі приклади моїх робіт"
 
-#: templates/cv/one.html:8
+#: templates/cv/one.html:7
+msgid "Smolynets Oleh"
+msgstr "Смолинець Олег Михайлович"
+
+#: templates/cv/one.html:10
 msgid "Main"
 msgstr "Основне"
 
-#: templates/cv/one.html:9
+#: templates/cv/one.html:11
 msgid "Date of birth – March 23,  1986"
 msgstr "Дата народження – 23 березня 1986 року."
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:12
 msgid "Place of residence — Dobrosyn, Zhovkva district, Lviv region,"
 msgstr "Місце проживання - с. Добросин, Жовківський р-н.,   Львівська обл., "
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:13
 msgid "Tsentralna st. 12"
 msgstr "вул. Центральна 12"
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:13
 msgid "(40 km from Lviv by the Rava — Ruska way)"
 msgstr "(40 км від Львова по Рава-Руській трасі)"
 
-#: templates/cv/one.html:11
+#: templates/cv/one.html:14
 msgid "tel."
 msgstr "тел."
 
-#: templates/cv/one.html:13
+#: templates/cv/one.html:16
 msgid ""
 "Destination: getting a job Junior Python/Django Web Developer in SoftFormance"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-10 19:38+0000\n"
+"POT-Creation-Date: 2018-03-11 17:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -62,31 +62,35 @@ msgstr ""
 msgid "My simple works"
 msgstr ""
 
-#: templates/cv/one.html:8
+#: templates/cv/one.html:7
+msgid "Smolynets Oleh"
+msgstr ""
+
+#: templates/cv/one.html:10
 msgid "Main"
 msgstr ""
 
-#: templates/cv/one.html:9
+#: templates/cv/one.html:11
 msgid "Date of birth – March 23,  1986"
 msgstr ""
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:12
 msgid "Place of residence — Dobrosyn, Zhovkva district, Lviv region,"
 msgstr ""
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:13
 msgid "Tsentralna st. 12"
 msgstr ""
 
-#: templates/cv/one.html:10
+#: templates/cv/one.html:13
 msgid "(40 km from Lviv by the Rava — Ruska way)"
 msgstr ""
 
-#: templates/cv/one.html:11
+#: templates/cv/one.html:14
 msgid "tel."
 msgstr ""
 
-#: templates/cv/one.html:13
+#: templates/cv/one.html:16
 msgid ""
 "Destination: getting a job Junior Python/Django Web Developer in SoftFormance"
 msgstr ""

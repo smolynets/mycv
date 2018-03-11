@@ -7,12 +7,8 @@ body {
 	margin-top: 20px;
 }
 
-.menu_one{
-	margin-top: 5px;
-}
-
 .text_boder{
-	margin-top: 200px;
+	margin-top: 30px;
 }
 
 .paragraph{
@@ -24,6 +20,8 @@ body {
 
 .text{
 	margin-top: 20px;
+	font-size: 22px;
+	font-family: 'Times New Roman'
 }
 
 .simpl_icon{
@@ -37,12 +35,7 @@ body {
 	right: 0;
 }
 
-input[type="button"] {
-      background: url('/static/img/united-states.png') no-repeat top;
-      width: 39px;
-      height: 40px;
-      border-color: #F8F8FF;     
-}
+
 
 .text_header{
 	margin-left: 20px;
@@ -50,4 +43,36 @@ input[type="button"] {
 
 .techno{
 	margin-left: 250px
+}
+
+.text_boder_one{
+	margin-top: 30px;
+}
+
+.title{
+	text-align: center;
+}
+
+.thumbnail{
+	margin-top: 30px;
+}
+
+.two{
+	margin-top: 130px;
+}
+
+.three{
+	margin-top: 190px;
+}
+
+.four{
+	margin-top: 190px;
+}
+
+.five{
+	margin-top: 190px;
+}
+
+.six{
+	margin-top: 190px;
 }
