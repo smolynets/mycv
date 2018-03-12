@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-03-11 17:55+0000\n"
+"POT-Creation-Date: 2018-03-12 20:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,155 +22,163 @@ msgstr ""
 msgid "All pages"
 msgstr ""
 
-#: templates/cv/five.html:8
-msgid "Technologies:"
-msgstr ""
-
-#: templates/cv/four.html:8
-msgid "Professional skills:"
-msgstr ""
-
-#: templates/cv/four.html:10
-msgid "The not bad user in  Linux(Ubuntu)"
-msgstr ""
-
-#: templates/cv/four.html:11
-msgid "tried to administrate servers with Linux(Ubuntu)"
-msgstr ""
-
-#: templates/cv/four.html:12
-msgid "in particular,  configured apache and Nginx with Wordpress"
-msgstr ""
-
-#: templates/cv/four.html:13
-msgid "More than two years  study django framework in your book"
-msgstr ""
-
-#: templates/cv/four.html:14
-msgid "The Base level of English"
-msgstr ""
-
-#: templates/cv/four.html:15
-msgid "The programming interest began with the books"
-msgstr ""
-
-#: templates/cv/four.html:16
-msgid "\"Bot\" of Maksym Kidruk and  \"Prey\" of  Michael Crichton"
-msgstr ""
-
-#: templates/cv/four.html:19
-msgid "My simple works"
-msgstr ""
-
-#: templates/cv/one.html:7
-msgid "Smolynets Oleh"
-msgstr ""
-
-#: templates/cv/one.html:10
+#: templates/base.html:25 templates/cv/home.html:14
 msgid "Main"
 msgstr ""
 
-#: templates/cv/one.html:11
+#: templates/base.html:28 templates/cv/experience.html:8
+msgid "Experience"
+msgstr ""
+
+#: templates/base.html:31 templates/cv/education.html:8
+msgid "Education"
+msgstr ""
+
+#: templates/base.html:34
+msgid "Professional_skills"
+msgstr ""
+
+#: templates/base.html:37 templates/cv/technologies.html:8
+msgid "Technologies"
+msgstr ""
+
+#: templates/base.html:40
+msgid "Personal_data"
+msgstr ""
+
+#: templates/cv/education.html:11
+msgid "Ukrainian Catholic University, Humanities faculty,  history,  bachelor"
+msgstr ""
+
+#: templates/cv/education.html:13
+msgid "Lviv National University, Historical faculty,  master's degree"
+msgstr ""
+
+#: templates/cv/experience.html:11
+msgid "today"
+msgstr ""
+
+#: templates/cv/experience.html:11
+msgid "engineer – electronic (system administrator)  in  Dobrosyn school"
+msgstr ""
+
+#: templates/cv/experience.html:12
+msgid "Also,  teach computer science."
+msgstr ""
+
+#: templates/cv/experience.html:14
+msgid "сall – center «Adelina» – Volya cable"
+msgstr ""
+
+#: templates/cv/experience.html:15
+msgid "the embassy of Poland and Rozetka groups, operator."
+msgstr ""
+
+#: templates/cv/experience.html:16
+msgid "internet – shop «Deshevshe.net», sales manager."
+msgstr ""
+
+#: templates/cv/experience.html:17
+msgid "сall – center «Adelina»,  group MTS,  operator."
+msgstr ""
+
+#: templates/cv/experience.html:18
+msgid "сall – center MTS,  operator."
+msgstr ""
+
+#: templates/cv/experience.html:19
+msgid "McDonald's."
+msgstr ""
+
+#: templates/cv/home.html:8
+msgid "Smolynets Oleh"
+msgstr ""
+
+#: templates/cv/home.html:15
 msgid "Date of birth – March 23,  1986"
 msgstr ""
 
-#: templates/cv/one.html:12
+#: templates/cv/home.html:16
 msgid "Place of residence — Dobrosyn, Zhovkva district, Lviv region,"
 msgstr ""
 
-#: templates/cv/one.html:13
+#: templates/cv/home.html:16
 msgid "Tsentralna st. 12"
 msgstr ""
 
-#: templates/cv/one.html:13
+#: templates/cv/home.html:16
 msgid "(40 km from Lviv by the Rava — Ruska way)"
 msgstr ""
 
-#: templates/cv/one.html:14
+#: templates/cv/home.html:17
 msgid "tel."
 msgstr ""
 
-#: templates/cv/one.html:16
+#: templates/cv/home.html:19
 msgid ""
 "Destination: getting a job Junior Python/Django Web Developer in SoftFormance"
 msgstr ""
 
-#: templates/cv/six.html:8
-msgid "Personal data:"
+#: templates/cv/personal_data.html:8
+msgid "Personal data"
 msgstr ""
 
-#: templates/cv/six.html:10
+#: templates/cv/personal_data.html:10
 msgid "Married, without bad habits, purposeful and punctual,"
 msgstr ""
 
-#: templates/cv/six.html:11
+#: templates/cv/personal_data.html:11
 msgid "with desire for self — realization"
 msgstr ""
 
-#: templates/cv/six.html:12
+#: templates/cv/personal_data.html:12
 msgid "Favorite hobby is reading and internet"
 msgstr ""
 
-#: templates/cv/six.html:13
+#: templates/cv/personal_data.html:13
 msgid "In choosing a new job the main thing for me"
 msgstr ""
 
-#: templates/cv/six.html:14
+#: templates/cv/personal_data.html:14
 msgid "is a possibility of self — realization and"
 msgstr ""
 
-#: templates/cv/six.html:15
+#: templates/cv/personal_data.html:15
 msgid "professional growth, good team"
 msgstr ""
 
-#: templates/cv/three.html:8
-msgid "Education:"
+#: templates/cv/professional_skills.html:8
+msgid "Professional skills"
 msgstr ""
 
-#: templates/cv/three.html:11
-msgid "Ukrainian Catholic University, Humanities faculty,  history,  bachelor"
+#: templates/cv/professional_skills.html:10
+msgid "The not bad user in  Linux(Ubuntu)"
 msgstr ""
 
-#: templates/cv/three.html:13
-msgid "Lviv National University, Historical faculty,  master's degree"
+#: templates/cv/professional_skills.html:11
+msgid "tried to administrate servers with Linux(Ubuntu)"
 msgstr ""
 
-#: templates/cv/two.html:8
-msgid "Experience:"
+#: templates/cv/professional_skills.html:12
+msgid "in particular,  configured apache and Nginx with Wordpress"
 msgstr ""
 
-#: templates/cv/two.html:11
-msgid "today"
+#: templates/cv/professional_skills.html:13
+msgid "More than two years  study django framework in your book"
 msgstr ""
 
-#: templates/cv/two.html:11
-msgid "engineer – electronic (system administrator)  in  Dobrosyn school"
+#: templates/cv/professional_skills.html:14
+msgid "The Base level of English"
 msgstr ""
 
-#: templates/cv/two.html:12
-msgid "Also,  teach computer science."
+#: templates/cv/professional_skills.html:15
+msgid "The programming interest began with the books"
 msgstr ""
 
-#: templates/cv/two.html:14
-msgid "сall – center «Adelina» – Volya cable"
+#: templates/cv/professional_skills.html:16
+msgid "\"Bot\" of Maksym Kidruk and  \"Prey\" of  Michael Crichton"
 msgstr ""
 
-#: templates/cv/two.html:15
-msgid "the embassy of Poland and Rozetka groups, operator."
-msgstr ""
-
-#: templates/cv/two.html:16
-msgid "internet – shop «Deshevshe.net», sales manager."
-msgstr ""
-
-#: templates/cv/two.html:17
-msgid "сall – center «Adelina»,  group MTS,  operator."
-msgstr ""
-
-#: templates/cv/two.html:18
-msgid "сall – center MTS,  operator."
-msgstr ""
-
-#: templates/cv/two.html:19
-msgid "McDonald's."
+#: templates/cv/professional_skills.html:19
+msgid "My simple works"
 msgstr ""

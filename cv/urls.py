@@ -3,10 +3,11 @@ from django.conf.urls import url
 from . import views
 
 urlpatterns = [
-	url(r'^$', views.one, name='one'),
-	url(r'two/', views.two, name='two'),
-	url(r'three/', views.three, name='three'),
-	url(r'four/', views.four, name='four'),
-	url(r'five/', views.five, name='five'),
-	url(r'six/', views.six, name='six'),
+	url(r'^$', views.home, name='home'),
+	url(r'experience/', views.experience, name='experience'),
+	url(r'education/', views.education, name='education'),
+	url(r'professional_skills/', views.professional_skills,
+	 name='professional_skills'),
+	url(r'technologies/', views.technologies, name='technologies'),
+	url(r'personal_data/', views.personal_data, name='personal_data'),
 ]

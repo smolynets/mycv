@@ -16,22 +16,28 @@
     <!-- end styles -->
     <body>
     	<div class='row sub-header'>
-            <div class='col-xs-6 menu-container'>
+            <div class='col-xs-8 menu-container'>
                 <ul class='nav nav-pills' role='tablist'>
                     <li role='presentation'>
                         <a href='' class="btn btn-default more_buttom">{% trans 'All pages' %}</a>
                     </li>
                     <li role='presentation' class='menu-items hidden'>
-                        <a href=''>Головна</a>
+                        <a href='{% url 'home' %}'>{% trans 'Main' %}</a>
                     </li>
                     <li role='presentation' class='menu-items hidden'>
-                        <a href=''>Головна</a>
+                        <a href='{% url 'experience' %}'>{% trans 'Experience' %}</a>
                     </li>
                     <li role='presentation' class='menu-items hidden'>
-                        <a href=''>Головна</a>
+                        <a href='{% url 'education' %}'>{% trans 'Education' %}</a>
                     </li>
                     <li role='presentation' class='menu-items hidden'>
-                        <a href=''>Головна</a>
+                        <a href='{% url 'professional_skills' %}'>{% trans 'Professional_skills' %}</a>
+                    </li>
+                    <li role='presentation' class='menu-items hidden'>
+                        <a href='{% url 'technologies' %}'>{% trans 'Technologies' %}</a>
+                    </li>
+                    <li role='presentation' class='menu-items hidden'>
+                        <a href='{% url 'personal_data' %}'>{% trans 'Personal_data' %}</a>
                     </li>
                 </ul>
             </div>

@@ -1,19 +1,19 @@
 from django.shortcuts import render
 
-def one(request):
-	return render(request, 'cv/one.html', {})
+def home(request):
+	return render(request, 'cv/home.html', {})
 
-def two(request):
-	return render(request, 'cv/two.html', {})
+def experience(request):
+	return render(request, 'cv/experience.html', {})
 
-def three(request):
-	return render(request, 'cv/three.html', {})
+def education(request):
+	return render(request, 'cv/education.html', {})
 
-def four(request):
-	return render(request, 'cv/four.html', {})
+def professional_skills(request):
+	return render(request, 'cv/professional_skills.html', {})
 
-def five(request):
-	return render(request, 'cv/five.html', {})
+def technologies(request):
+	return render(request, 'cv/technologies.html', {})
 
-def six(request):
-	return render(request, 'cv/six.html', {})
+def personal_data(request):
+	return render(request, 'cv/personal_data.html', {})
