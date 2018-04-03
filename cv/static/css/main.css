@@ -90,13 +90,14 @@ body {
 }
 
 .mainlist{
-	background-color: blue;
-	width: 200px;
+	background-color: 	#DCDCDC;
+	width: 500px;
 	position: absolute;
 	 z-index:99999999; 
 
 }
 
 .menu-items{
-	font-size: 20px;
+	font-size: 50px;
+	margin-top: 18px;
 }
