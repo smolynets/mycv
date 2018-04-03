@@ -15,33 +15,35 @@
         <link rel="stylesheet" href='{% static 'css/main.css' %}'>
     <!-- end styles -->
     <body>
-    	<div class='row sub-header'>
-            <div class='col-xs-8 menu-container'>
-                <ul class='nav nav-pills' role='tablist'>
-                    <li role='presentation'>
-                        <a href='' class="btn btn-default more_buttom">{% trans 'All pages' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'home' %}'>{% trans 'Main' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'experience' %}'>{% trans 'Experience' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'education' %}'>{% trans 'Education' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'professional_skills' %}'>{% trans 'Professional_skills' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'technologies' %}'>{% trans 'Technologies' %}</a>
-                    </li>
-                    <li role='presentation' class='menu-items hidden'>
-                        <a href='{% url 'personal_data' %}'>{% trans 'Personal_data' %}</a>
-                    </li>
-                </ul>
+    	<div class='row sub-header menu-container'>
+            <div class='col-xs-1'>
+                <div>
+                    <i class="fa fa-bars fa-4x more_buttom" aria-hidden="true"></i>
+                </div>
+                <div class="ee">
+                    <ul class='nav mainlist' role='tablist'>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'home' %}'>{% trans 'Main' %}</a>
+                        </li>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'experience' %}'>{% trans 'Experience' %}</a>
+                        </li>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'education' %}'>{% trans 'Education' %}</a>
+                        </li>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'professional_skills' %}'>{% trans 'Professional_skills' %}</a>
+                        </li>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'technologies' %}'>{% trans 'Technologies' %}</a>
+                        </li>
+                        <li role='presentation' class='menu-items hidden'>
+                            <a href='{% url 'personal_data' %}'>{% trans 'Personal_data' %}</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="col-xs-4 lang">
+            <div class="col-xs-5 lang">
                 <button class='initLangSelector btn btn-link' value='uk'>
                     <!--<img src="http://kvitky.pp.ua/static/img/ukraine.png"/>-->
                     <img src="/static/img/ukraine.png" alt='українська'/>
