@@ -7,20 +7,19 @@ function initLangSelector() {
      });
     }
 
+ function showingMenu(){
+        $('.menu-items').toggleClass('hidden');
+    }
+
+    $('.more_menu').click(function(){
+        showingMenu();
+    })
+
 
 $(document).ready(function(){
 
     initLangSelector()
 
-
- 
-    function showingMenu(){
-        $('.menu-items').toggleClass('hidden');
-    }
-
-    $('.more_buttom').click(function(){
-        showingMenu();
-    })
 
 
 
