@@ -93,7 +93,8 @@ body {
 	background-color: 	#DCDCDC;
 	width: 500px;
 	position: absolute;
-	 z-index:99999999; 
+	z-index:99999999; 
+	margin-top: 40px;
 
 }
 
