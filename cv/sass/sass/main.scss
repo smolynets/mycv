@@ -1,0 +1,195 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+body {
+    background-color: #F8F8FF;
+}
+
+
+.menu-container{
+	margin-left: 20px;
+	margin-top: 20px;
+	position: relative;
+}
+
+.text_boder{
+	margin-top: 30px;
+}
+
+.paragraph{
+	font-family: 'Times New Roman';
+	font-size: 18px;
+	line-height: 1.5;
+	word-spacing: 5px;
+}
+
+.text{
+	margin-top: 20px;
+	font-size: 22px;
+	font-family: 'FontAwesome';
+}
+
+.simpl_icon{
+	font-size:40px;
+	color:#DEB887;
+}
+
+.lang{
+	margin-top: 10px;
+}
+
+
+
+.text_header{
+	margin-left: 20px;
+}
+
+.techno{
+	margin-left: 250px
+}
+
+.text_boder_one{
+	margin-top: 30px;
+}
+
+.title{
+	text-align: center;
+	margin-top: 40px;
+	 font-size: 200%;
+}
+
+.thumbnail{
+	margin-top: 30px;
+}
+
+.two{
+	margin-top: 90px;
+}
+
+.three{
+	margin-top: 190px;
+}
+
+.four{
+	margin-top: 100px;
+}
+
+.five{
+	margin-top: 130px;
+}
+
+.six{
+	margin-top: 140px;
+}
+
+.text_main{
+	font-weight: bold;
+
+}
+
+.more_buttom{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+
+.mainlist{
+	background-color: 	#DCDCDC;
+	width: 500px;
+	position: absolute;
+	z-index:99999999; 
+	margin-top: 40px;
+
+}
+
+.menu-items{
+	font-size: 50px;
+	margin-top: 18px;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+  h1 {
+    font-size: 300%; }
+  .text {
+    font-size: 300%; }
+  .more_buttom{
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+  }
+  .arrow_left{
+  	font-size: 200%;
+  }
+  .arrow_right{
+  	font-size: 200%;
+  }
+  .lang{
+  	margin-right: 600px;
+  	margin-top: -60px;
+  }
+  .initLangSelector img {
+	width: 80px;
+    height:80px;
+    margin-left: 30px;
+  }
+  .menu-items{
+	font-size: 100px;
+	margin-top: 50px;
+  }
+  .mainlist{
+	background-color: 	#DCDCDC;
+	width: 800px;
+	position: absolute;
+	z-index:99999999; 
+	margin-top: 40px;
+
+  }
+  .menu-icon {
+  	margin-top: 25px;
+  }
+}
+@media only screen and (max-device-width: 1024px) {
+  h1 {
+    font-size: 300%; }
+  .text {
+    font-size: 400%; }
+  .more_buttom{
+	margin-left: 30px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+  }
+  .arrow_left{
+  	font-size: 1000%;
+  }
+  .arrow_right{
+  	font-size: 1000%;
+  }
+  .lang{
+  	margin-left: 600px;
+  	margin-top: -60px;
+  }
+  .initLangSelector img {
+	width: 80px;
+    height:80px;
+    margin-left: 30px;
+  }
+  .menu-items{
+	font-size: 100px;
+	margin-top: 50px;
+  }
+  .mainlist{
+	background-color: 	#DCDCDC;
+	width: 800px;
+	position: absolute;
+	z-index:99999999; 
+	margin-top: 40px;
+
+  }
+  .menu-icon {
+  	margin-top: 25px;
+  }
+}
